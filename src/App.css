@@ -249,7 +249,7 @@ article {
   z-index: 1;
 }
 
-.icon-box ion-icon {
+.icon-box{
   --ionicon-stroke-width: 35px;
 }
 .hydrated {
@@ -257,4 +257,42 @@ article {
 }
 ion-icon {
   display: block;
+}
+
+.contact-info {
+  max-width: calc(100% - 64px);
+  width: calc(100% - 64px);
+}
+.contact-title {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.contact-info :is(.contact-link, time, address) {
+  --fs-7: 14px;
+  font-weight: var(--fw-300);
+}
+.contact-info :is(.contact-link) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.contact-info :is(.contact-link, time, address) {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.social-item .social-link {
+  color: var(--light-gray-70);
+  font-size: 18px;
 }
