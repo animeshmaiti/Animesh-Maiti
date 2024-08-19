@@ -485,7 +485,7 @@ article {
   scroll-snap-type: inline mandatory;
 }
 
-.has-scrollbar{
+.has-scrollbar {
   cursor: pointer;
 }
 
@@ -504,7 +504,9 @@ article {
   border-radius: 5px;
 }
 
-.has-scrollbar::-webkit-scrollbar-button { width: 100px; }
+.has-scrollbar::-webkit-scrollbar-button {
+  width: 100px;
+}
 
 .testimonials-item {
   min-width: calc(50% - 15px);
@@ -552,4 +554,109 @@ article {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.modal-container {
+  pointer-events: all;
+  visibility: visible;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  z-index: 20;
+}
+
+.overlay {
+  opacity: 0.8;
+    visibility: visible;
+    pointer-events: all;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: hsl(0, 0%, 5%);
+    z-index: 1;
+    transition: var(--transition-1);
+}
+
+.testimonials-modal {
+  transform: scale(1);
+    opacity: 1;
+  gap: 35px;
+  max-width: 680px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--eerie-black-2);
+  position: relative;
+  margin: 15px 12px;
+  border: 1px solid var(--jet);
+  box-shadow: var(--shadow-5);
+  transition: var(--transition-1);
+  z-index: 2;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--onyx);
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-2);
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.modal-close-btn ion-icon {
+  --ionicon-stroke-width: 50px;
+}
+
+.modal-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-avatar-box {
+  border-radius: 18px;
+  margin-bottom: 0;
+  background: var(--bg-gradient-onyx);
+  width: max-content;
+  box-shadow: var(--shadow-2);
+}
+.modal-avatar-box img {
+  width: 80px;
+}
+
+.modal-title {
+  margin-bottom: 4px;
+}
+
+.modal-content time {
+  font-size: var(--fs-6);
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
 }

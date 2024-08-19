@@ -1,5 +1,5 @@
 import { Navbar } from './Navbar'
-import {About} from './Pages/About'
+import {About} from './Pages/About/About'
 // import {Resume} from './Pages/Resume'
 // import {Project} from './Pages/Project'
 // import {Contact} from './Pages/Contact'
