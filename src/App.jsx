@@ -7,7 +7,7 @@ import { Home } from "./components/Home";
 function App() {
   return (
     <>
-      <div className="flex gap-5 justify-center items-center max-w-[1200px] mx-auto">
+      <div className="flex gap-5 justify-center max-w-[1200px] mx-auto">
         <Sidebar />
         <Home />
       </div>
