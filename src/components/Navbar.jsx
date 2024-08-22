@@ -16,13 +16,7 @@ export const Navbar = () => {
 
         <li className='navbar-item'>
           <button className='navbar-link'>
-            Portfolio
-          </button>
-        </li>
-
-        <li className='navbar-item'>
-          <button className='navbar-link'>
-            Blog
+            Project
           </button>
         </li>
 

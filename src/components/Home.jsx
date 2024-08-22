@@ -1,17 +1,14 @@
 import { Navbar } from './Navbar'
-import {About} from './Pages/About/About'
-// import {Resume} from './Pages/Resume'
-// import {Project} from './Pages/Project'
-// import {Contact} from './Pages/Contact'
+// import {About} from './Pages/About/About'
+import { Resume } from './Pages/Resume/Resume'
+
 
 export const Home = () => {
   return (
     <div className='main-content'>
       <Navbar/>
-      <About/>
-      {/* <Resume/>
-      <Project/>
-      <Contact/> */}
+      {/* <About/> */}
+      <Resume/>
     </div>
   )
 }
