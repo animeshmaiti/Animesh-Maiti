@@ -1,5 +1,6 @@
 import { Navbar } from './Navbar'
-import { Blog } from './Pages/Blog/Blog'
+import { Contact } from './Pages/Contact/Contact'
+// import { Blog } from './Pages/Blog/Blog'
 // import { Project } from './Pages/Project/Project'
 // import {About} from './Pages/About/About'
 // import { Resume } from './Pages/Resume/Resume'
@@ -12,7 +13,8 @@ export const Home = () => {
       {/* <About/> */}
       {/* <Resume/> */}
       {/* <Project/> */}
-      <Blog/>
+      {/* <Blog/> */}
+      <Contact/>
     </div>
   )
 }

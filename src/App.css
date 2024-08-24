@@ -967,7 +967,7 @@ article {
 }
 
 .project-img::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -998,7 +998,9 @@ article {
   --ionicon-stroke-width: 50px;
 }
 
-.icon-inner, .ionicon, svg {
+.icon-inner,
+.ionicon,
+svg {
   display: block;
   height: 100%;
   width: 100%;
@@ -1025,7 +1027,8 @@ article {
   font-weight: var(--fw-300);
 }
 
-.project-title, .project-category {
+.project-title,
+.project-category {
   margin-left: 10px;
 }
 
@@ -1033,7 +1036,8 @@ article {
   margin-bottom: 10px;
 }
 
-.project-list, .blog-posts-list {
+.project-list,
+.blog-posts-list {
   grid-template-columns: 1fr 1fr;
 }
 
@@ -1043,7 +1047,7 @@ article {
 }
 
 .blog-post-item > a::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 1px;
   border-radius: inherit;
@@ -1057,7 +1061,8 @@ article {
   overflow: hidden;
 }
 
-.project-img, .blog-banner-box {
+.project-img,
+.blog-banner-box {
   border-radius: 16px;
 }
 
@@ -1104,4 +1109,105 @@ article {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.mapbox {
+  height: 380px;
+  border-radius: 18px;
+}
+
+.mapbox {
+  position: relative;
+  border-radius: 18px;
+  height: 380px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid var(--jet);
+  overflow: hidden;
+}
+.mapbox figure {
+  height: 100%;
+}
+
+.mapbox iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  filter: grayscale(1) invert(1);
+}
+
+.contact-form {
+  margin-bottom: 10px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+  display: grid;
+}
+
+.form-input {
+  padding: 15px 20px;
+  color: var(--white-2);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-400);
+    border: 1px solid var(--jet);
+    border-radius: 14px;
+    outline: none;
+}
+
+textarea.form-input {
+  min-height: 100px;
+  height: 120px;
+  max-height: 200px;
+  resize: vertical;
+  margin-bottom: 30px;
+}
+
+.form-btn.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.form-btn {
+  position: relative;
+  margin-left: auto;
+  width: max-content;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  --fs-6: 16px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.form-btn::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+.form-btn ion-icon {
+  font-size: 18px;
+}
+
+.form-btn:hover {
+  background: var(--bg-gradient-yellow-1);
 }
