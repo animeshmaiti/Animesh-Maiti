@@ -22,6 +22,12 @@ export const Navbar = () => {
 
         <li className='navbar-item'>
           <button className='navbar-link'>
+            Blog
+          </button>
+        </li>
+
+        <li className='navbar-item'>
+          <button className='navbar-link'>
             Contact
           </button>
         </li>
