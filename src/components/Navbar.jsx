@@ -1,35 +1,36 @@
+import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <nav className='navbar'>
       <ul className='navbar-list'>
         <li className='navbar-item'>
-          <button className='navbar-link active'>
+          <NavLink className='navbar-link' to='/'>
             About
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link'>
+          <NavLink className='navbar-link' to='/resume'>
             Resume
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link'>
+          <NavLink className='navbar-link' to='/project'>
             Project
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link'>
+          <NavLink className='navbar-link' to='/blog'>
             Blog
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link'>
+          <NavLink className='navbar-link' to='/contact'>
             Contact
-          </button>
+          </NavLink>
         </li>
       </ul>
     </nav>
