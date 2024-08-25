@@ -4,7 +4,7 @@ import { Services } from './Services';
 
 export const About = () => {
   return (
-    <article className="about  active" data-page="about">
+    <article className="about active" data-page="about">
       <header>
         <h2 className="h2 article-title">About me</h2>
       </header>

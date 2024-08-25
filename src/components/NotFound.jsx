@@ -2,7 +2,7 @@ export const NotFound = () => {
   return (
     <div className="error-body">
       <div className="noise"></div>
-      <div className="overlay"></div>
+      <div className="overlay-notfound"></div>
       <div className="terminal">
         <h1 className="err">
           Error <span className="errorcode">404</span>

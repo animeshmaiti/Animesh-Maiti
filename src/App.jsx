@@ -7,10 +7,10 @@ import { Home } from './components/Home';
 function App() {
   return (
     <>
-      <div className='main'>
+      <main>
         <Sidebar />
         <Home />
-      </div>
+      </main>
     </>
   );
 }

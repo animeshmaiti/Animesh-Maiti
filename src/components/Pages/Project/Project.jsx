@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { IonIcon } from '@ionic/react';
-import { eyeOutline } from 'ionicons/icons';
+import { chevronDown, eyeOutline } from 'ionicons/icons';
 
 import project1 from '@assets/project-1.jpg';
 
@@ -121,14 +121,14 @@ export const Project = () => {
           </li>
         </ul>
 
-        {/* <div className="filter-select-box">
+         <div className="filter-select-box">
 
             <button className="filter-select" data-select>
 
               <div className="select-value" data-selecct-value>Select category</div>
 
               <div className="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
+                <IonIcon icon={chevronDown}></IonIcon>
               </div>
 
             </button>
@@ -153,7 +153,7 @@ export const Project = () => {
 
             </ul>
 
-          </div> */}
+          </div>
 
         <ul className="project-list">
           {filteredProjects.map((project, index) => (
