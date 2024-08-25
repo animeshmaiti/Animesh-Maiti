@@ -1,21 +1,4 @@
-const SkillsData = [
-  {
-    title: 'Web design',
-    value: 80,
-  },
-  {
-    title: 'Graphic design',
-    value: 70,
-  },
-  {
-    title: 'Branding',
-    value: 90,
-  },
-  {
-    title: 'WordPress',
-    value: 50,
-  },
-];
+import { SkillsData } from "../../Data/Data";
 
 export const Skills = () => {
   return (

@@ -1,27 +1,4 @@
-import iconDesign from '@assets/icon-design.svg';
-
-const ServicesData = [
-  {
-    img: iconDesign,
-    title: 'Web design',
-    desc: 'The most modern and high-quality design made at a professional level.',
-  },
-  {
-    img: iconDesign,
-    title: 'Web design',
-    desc: 'The most modern and high-quality design made at a professional level.',
-  },
-  {
-    img: iconDesign,
-    title: 'Web design',
-    desc: 'The most modern and high-quality design made at a professional level.',
-  },
-  {
-    img: iconDesign,
-    title: 'Web design',
-    desc: 'The most modern and high-quality design made at a professional level.',
-  },
-];
+import { ServicesData } from "../../Data/Data";
 
 export const Services = () => {
   return (

@@ -2,64 +2,7 @@ import { useState } from 'react';
 import { IonIcon } from '@ionic/react';
 import { chevronDown, eyeOutline } from 'ionicons/icons';
 
-import project1 from '@assets/project-1.jpg';
-
-const ProjectListData = [
-  {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
-  },
-];
+import { ProjectListData } from '../../Data/Data';
 
 export const Project = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');

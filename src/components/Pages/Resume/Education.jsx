@@ -1,32 +1,7 @@
 import { IonIcon } from '@ionic/react';
 import { bookOutline } from 'ionicons/icons';
 
-const EducationData = [
-  {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
-    description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
-  },
-  {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
-    description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
-  },
-  {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
-    description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
-  },
-  {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
-    description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
-  },
-];
+import { EducationData } from '../../Data/Data';
 
 export const Education = () => {
   return (

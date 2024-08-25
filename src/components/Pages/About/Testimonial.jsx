@@ -3,50 +3,7 @@ import { IonIcon } from '@ionic/react';
 import {closeOutline} from 'ionicons/icons'
 
 import quoteIcon from '@assets/icon-quote.svg';
-import avatar1 from '@assets/avatar-1.png';
-
-const testimonialsData = [
-    {
-      avatar: avatar1,
-      name: 'Rohit Patil',
-      text: `Richard was hired to create a corporate identity. We were very
-              pleased with the work done. She has a lot of experience and is
-              very concerned about the needs of client. Lorem ipsum dolor
-              sit amet, ullamcous cididt consectetur adipiscing elit, seds
-              do et eiusmod tempor incididunt ut laborels dolore magnarels
-              alia.`,
-    },
-    {
-      avatar: avatar1,
-      name: 'Rohit Patil',
-      text: `Richard was hired to create a corporate identity. We were very
-              pleased with the work done. She has a lot of experience and is
-              very concerned about the needs of client. Lorem ipsum dolor
-              sit amet, ullamcous cididt consectetur adipiscing elit, seds
-              do et eiusmod tempor incididunt ut laborels dolore magnarels
-              alia.`,
-    },
-    {
-      avatar: avatar1,
-      name: 'Rohit Patil',
-      text: `Richard was hired to create a corporate identity. We were very
-              pleased with the work done. She has a lot of experience and is
-              very concerned about the needs of client. Lorem ipsum dolor
-              sit amet, ullamcous cididt consectetur adipiscing elit, seds
-              do et eiusmod tempor incididunt ut laborels dolore magnarels
-              alia.`,
-    },
-    {
-      avatar: avatar1,
-      name: 'Rohit Patil',
-      text: `Richard was hired to create a corporate identity. We were very
-              pleased with the work done. She has a lot of experience and is
-              very concerned about the needs of client. Lorem ipsum dolor
-              sit amet, ullamcous cididt consectetur adipiscing elit, seds
-              do et eiusmod tempor incididunt ut laborels dolore magnarels
-              alia.`,
-    },
-  ];
+import { testimonialsData } from '../../Data/Data';
 
 export const Testimonial = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

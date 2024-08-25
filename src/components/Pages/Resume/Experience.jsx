@@ -1,32 +1,7 @@
 import { IonIcon } from '@ionic/react';
 import { checkmarkDoneOutline } from 'ionicons/icons';
 
-const ExperienceData = [
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-];
+import { ExperienceData } from '../../Data/Data';
 
 export const Experience = () => {
   return (
