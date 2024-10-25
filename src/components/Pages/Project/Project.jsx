@@ -18,14 +18,14 @@ export const Project = () => {
       selectedCategory === 'all' || project.category === selectedCategory
   );
   return (
-    <article className="portfolio" data-page="portfolio">
+    <article className='portfolio' data-page='portfolio'>
       <header>
-        <h2 className="h2 article-title">Projects</h2>
+        <h2 className='h2 article-title'>Projects</h2>
       </header>
 
-      <section className="projects">
-        <ul className="filter-list">
-          <li className="filter-item">
+      <section className='projects'>
+        <ul className='filter-list'>
+          <li className='filter-item'>
             <button
               className={activeButton === 'All' ? 'active' : ''}
               onClick={() => handleFilterClick('all', 'All')}
@@ -34,63 +34,54 @@ export const Project = () => {
             </button>
           </li>
 
-          <li className="filter-item">
+          <li className='filter-item'>
             <button
-              className={activeButton === 'Web design' ? 'active' : ''}
-              onClick={() => handleFilterClick('web design', 'Web design')}
+              className={activeButton === 'Machine Learning' ? 'active' : ''}
+              onClick={() => handleFilterClick('Machine Learning', 'Machine Learning')}
             >
-              Web design
+              Machine Learning
             </button>
           </li>
 
-          <li className="filter-item">
+          <li className='filter-item'>
             <button
-              className={activeButton === 'Applications' ? 'active' : ''}
-              onClick={() => handleFilterClick('applications', 'Applications')}
-            >
-              Applications
-            </button>
-          </li>
-
-          <li className="filter-item">
-            <button
-              className={activeButton === 'Web development' ? 'active' : ''}
+              className={activeButton === 'Web App' ? 'active' : ''}
               onClick={() =>
-                handleFilterClick('web development', 'Web development')
+                handleFilterClick('Web App', 'Web App')
               }
             >
-              Web development
+              Web App
             </button>
           </li>
         </ul>
 
-         <div className="filter-select-box">
+         <div className='filter-select-box'>
 
-            <button className="filter-select" data-select>
+            <button className='filter-select' data-select>
 
-              <div className="select-value" data-selecct-value>Select category</div>
+              <div className='select-value' data-selecct-value>Select category</div>
 
-              <div className="select-icon">
+              <div className='select-icon'>
                 <IonIcon icon={chevronDown}></IonIcon>
               </div>
 
             </button>
 
-            <ul className="select-list">
+            <ul className='select-list'>
 
-              <li className="select-item">
+              <li className='select-item'>
                 <button data-select-item>All</button>
               </li>
 
-              <li className="select-item">
+              <li className='select-item'>
                 <button data-select-item>Web design</button>
               </li>
 
-              <li className="select-item">
+              <li className='select-item'>
                 <button data-select-item>Applications</button>
               </li>
 
-              <li className="select-item">
+              <li className='select-item'>
                 <button data-select-item>Web development</button>
               </li>
 
@@ -98,7 +89,7 @@ export const Project = () => {
 
           </div>
 
-        <ul className="project-list">
+        <ul className='project-list'>
           {filteredProjects.map((project, index) => (
             <li
               key={index}
@@ -110,18 +101,18 @@ export const Project = () => {
               }`}
               data-category={project.category}
             >
-              <a href={project.link}>
-                <figure className="project-img">
-                  <div className="project-item-icon-box">
+              <a href={project.link} target='_blank'>
+                <figure className='project-img'>
+                  <div className='project-item-icon-box'>
                     <IonIcon className='md hydrated' icon={eyeOutline}></IonIcon>
                   </div>
 
-                  <img src={project.img} alt={project.title} loading="lazy" />
+                  <img src={project.img} alt={project.title} loading='lazy' />
                 </figure>
 
-                <h3 className="project-title">{project.title}</h3>
+                <h3 className='project-title'>{project.title}</h3>
 
-                <p className="project-category">{project.category}</p>
+                <p className='project-category'>{project.category}</p>
               </a>
             </li>
           ))}

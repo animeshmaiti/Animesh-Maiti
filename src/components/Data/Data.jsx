@@ -39,7 +39,7 @@ export const projectData = [
   {
     avatar: dyslexia,
     name: 'Dyslexia Prediction',
-    text: 'Project Objective: I\'m developing a machine learning model to predict Dyslexia through EEG data analysis. The model currently leverages supervised learning techniques to classify or predict instances of Dyslexia.\n\nData Processing & Visualization: For data manipulation and pre-processing, I use tools like pandas and numpy. Data cleaning and feature engineering help refine the dataset, and I visualize feature relationships and insights using matplotlib and seaborn.\n\nDimensionality Reduction: "Given the high dimensionality of EEG data, I use Principal Component Analysis (PCA) from sklearn to reduce dimensions and streamline model training and performance.\n\nAlgorithms and Model Building: "My current approach uses SVM from sklearn and a simple neural network from TensorFlow\'s Keras library for classification tasks. The models are trained on labeled EEG data to identify patterns and features correlated with Dyslexia.',
+    text: 'Project Objective: I\'m developing a machine learning model to predict Dyslexia through EEG data analysis. The model currently leverages supervised learning techniques to classify or predict instances of Dyslexia.\n\nData Processing & Visualization: For data manipulation and pre-processing, I use tools like pandas and numpy. Data cleaning and feature engineering help refine the dataset, and I visualize feature relationships and insights using matplotlib and seaborn.\n\nDimensionality Reduction: Given the high dimensionality of EEG data, I use Principal Component Analysis (PCA) from sklearn to reduce dimensions and streamline model training and performance.\n\nAlgorithms and Model Building: My current approach uses SVM from sklearn and a simple neural network from TensorFlow\'s Keras library for classification tasks. The models are trained on labeled EEG data to identify patterns and features correlated with Dyslexia.',
     link: 'https://github.com/animeshmaiti/dyslexia-detection-eeg',
   },
   {
@@ -156,62 +156,62 @@ export const SkillsData = [
 ];
 
 // ==================== Project ======================
-import project1 from '@assets/project-1.jpg';
+import bitNet from '@assets/BitNet.jpg';
+import sentimental from '@assets/sentimental.png';
+import chatApp from '@assets/chatApp.png';
+import aiChat from '@assets/AiChatBot.png';
+import expense from '@assets/expenseTrack.png';
+import newsApp from '@assets/newsApp.png';
+import notebook from '@assets/noteBook.png';
 
 export const ProjectListData = [
   {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
+    title: 'Dyslexia Prediction using EEG',
+    category: 'Machine Learning',
+    img: dyslexia,
+    link: 'https://github.com/animeshmaiti/dyslexia-detection-eeg',
   },
   {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
+    title: 'BitNet',
+    category: 'Machine Learning',
+    img: bitNet,
+    link: 'https://github.com/animeshmaiti/BitNet/tree/dev',
   },
   {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
+    title: 'Sentiment Analysis',
+    category: 'Machine Learning',
+    img: sentimental,
+    link: 'https://github.com/animeshmaiti/AI-Python/tree/master/sentimental-analysis',
   },
   {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
+    title: 'Chat Application',
+    category: 'Web App',
+    img: chatApp,
+    link: 'https://github.com/animeshmaiti/Chat-App',
   },
   {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
+    title: 'Chat Bot',
+    category: 'Web App',
+    img: aiChat,
+    link: 'https://github.com/animeshmaiti/Ai-chat-bot',
   },
   {
-    title: 'Finance',
-    category: 'web design',
-    img: project1,
-    link: '#',
+    title: 'Expanse Tracker',
+    category: 'Web App',
+    img: expense,
+    link: 'https://github.com/animeshmaiti/Expense-Tracker',
   },
   {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
+    title: 'News App',
+    category: 'Web App',
+    img: newsApp,
+    link: 'https://github.com/animeshmaiti/News-App',
   },
   {
-    title: 'Finance',
-    category: 'web development',
-    img: project1,
-    link: '#',
-  },
-  {
-    title: 'Finance',
-    category: 'applications',
-    img: project1,
-    link: '#',
+    title: 'Notebook',
+    category: 'Web App',
+    img: notebook,
+    link: 'https://github.com/animeshmaiti/Notebook',
   },
 ];
 

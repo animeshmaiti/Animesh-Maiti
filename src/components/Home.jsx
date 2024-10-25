@@ -11,15 +11,15 @@ import { NotFound } from './NotFound';
 
 export const Home = () => {
   return (
-    <div className="main-content">
+    <div className='main-content'>
       <Navbar />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound/>} />
+        <Route path='/' element={<About />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>
     </div>
   );

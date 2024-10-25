@@ -4,11 +4,11 @@ import { HighlightedProject } from './HighlightedProject';
 
 export const About = () => {
   return (
-    <article className="about active" data-page="about">
+    <article className='about active' data-page='about'>
       <header>
-        <h2 className="h2 article-title">About me</h2>
+        <h2 className='h2 article-title'>About me</h2>
       </header>
-      <section className="about-text">
+      <section className='about-text'>
         <p>
           Hi! I'm Animesh Maiti, a passionate engineer with a background in
           Electronics and Computer Science Engineering, currently exploring the

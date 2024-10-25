@@ -13,27 +13,27 @@ export const Experience = () => {
     document.body.removeChild(link);
   };
   return (
-    <section className="timeline">
-      <div className="title-wrapper">
-        <div className="icon-box">
+    <section className='timeline'>
+      <div className='title-wrapper'>
+        <div className='icon-box'>
           <IonIcon icon={checkmarkDoneOutline}></IonIcon>
         </div>
 
-        <h3 className="h3">Experience</h3>
+        <h3 className='h3'>Experience</h3>
       </div>
 
-      <ol className="timeline-list">
+      <ol className='timeline-list'>
         {ExperienceData.map((experience, index) => (
-          <li key={index} className="timeline-item">
-            <h4 className="h4 timeline-item-title">{experience.title}</h4>
+          <li key={index} className='timeline-item'>
+            <h4 className='h4 timeline-item-title'>{experience.title}</h4>
 
             <span>{experience.date}</span>
 
-            <p className="timeline-text">{experience.description}</p>
+            <p className='timeline-text'>{experience.description}</p>
           </li>
         ))}
       </ol>
-      <button className="btn" onClick={() => downloadPDF()}>
+      <button className='btn' onClick={() => downloadPDF()}>
         <IonIcon icon={downloadOutline}></IonIcon>
         <span>Download Resume</span>
       </button>
