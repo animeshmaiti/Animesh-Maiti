@@ -101,74 +101,56 @@ export const languageData = [
 // Education data
 export const EducationData = [
   {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
+    title: 'Gyandeep Vidyapith, West Bengal, WBBSE',
+    date: '2018 — 2019',
     description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
+      'Completed my secondary education with 81% marks.',
   },
   {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
+    title: 'Egra JL High School, West Bengal, WBCHSE',
+    date: '2019 — 2021',
     description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
+      'Completed my higher secondary education with 84% marks.',
   },
   {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
+    title: 'Kalinga Institute of Industrial Technology, Bhubaneswar',
+    date: '2021 — current',
     description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
-  },
-  {
-    title: 'University Of Engineering Pune',
-    date: '2021 — 2024',
-    description:
-      'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.',
+      'Currently pursuing my B.Tech in Electronics & Computer Science and Engineering. Final year student.',
   },
 ];
 
 // Experience data
 export const ExperienceData = [
   {
-    title: 'Creative director',
-    date: '2015 — Present',
+    title: 'Resume',
+    date: 'Present',
     description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
+      'I am a student fresher who looking for a job. For gain experience and knowledge.',
   },
   {
-    title: 'Creative director',
-    date: '2015 — Present',
+    title: 'No Experience',
+    date: 'Present',
     description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
-  },
-  {
-    title: 'Creative director',
-    date: '2015 — Present',
-    description:
-      'Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.',
+      'I have no experience in any company. I am a student and I am learning new things every day.',
   },
 ];
 
 export const SkillsData = [
   {
-    title: 'Web design',
+    title: 'Web development',
     value: 80,
   },
   {
-    title: 'Graphic design',
+    title: 'Machine Learning',
     value: 70,
   },
   {
-    title: 'Branding',
-    value: 90,
+    title: 'Data Analysis',
+    value: 70,
   },
   {
-    title: 'WordPress',
+    title: 'Cloud Computing',
     value: 50,
   },
 ];

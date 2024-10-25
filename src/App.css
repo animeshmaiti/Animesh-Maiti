@@ -296,6 +296,59 @@ article {
   z-index: -1;
 }
 
+.btn {
+  position: relative;
+  width: 100%;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+.btn ion-icon {
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: var(--bg-gradient-yellow-1);
+}
+
+.btn:hover::before {
+  background: var(--bg-gradient-yellow-2);
+}
+
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  background: var(--border-gradient-onyx);
+}
+
+.btn:disabled:hover::before {
+  background: var(--bg-gradient-jet);
+}
+
 /* ====================== MAIN =================== */
 
 main {
@@ -770,13 +823,14 @@ main {
 
 .timeline {
   margin-bottom: 30px;
+  gap: 25px;
+  display: grid;
 }
 
 .timeline .title-wrapper {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 25px;
 }
 
 .timeline-list {
@@ -1430,6 +1484,15 @@ h1.err {
     font-size: 18px;
   }
 
+  .btn {
+    --fs-6: 16px;
+    padding: 16px 20px;
+  }
+
+  .btn ion-icon {
+    font-size: 18px;
+  }
+
   /**
    * #MAIN
    */
@@ -1707,6 +1770,11 @@ h1.err {
 
   .has-scrollbar::-webkit-scrollbar-button {
     width: 100px;
+  }
+
+  .btn {
+    width: max-content;
+    margin-right: auto;
   }
 
   /**
