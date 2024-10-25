@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<svg viewBox="0 0 480 480"
+    xmlns="http://www.w3.org/2000/svg">
+    <g data-name="22-graph" id="_22-graph">
+        <g id="flat">
+            <rect height="144" rx="8" style="fill:#f7b964" width="48" x="56" y="296"/>
+            <path d="M80,432V304a8,8,0,0,1,8-8H64a8,8,0,0,0-8,8V432a8,8,0,0,0,8,8H88A8,8,0,0,1,80,432Z" style="fill:#f4995b"/>
+            <rect height="112" rx="8" style="fill:#f7b964" width="48" x="200" y="328"/>
+            <path d="M224,432V336a8,8,0,0,1,8-8H208a8,8,0,0,0-8,8v96a8,8,0,0,0,8,8h24A8,8,0,0,1,224,432Z" style="fill:#f4995b"/>
+            <rect height="96" rx="8" style="fill:#f7b964" width="48" x="344" y="344"/>
+            <path d="M368,432V352a8,8,0,0,1,8-8H352a8,8,0,0,0-8,8v80a8,8,0,0,0,8,8h24A8,8,0,0,1,368,432Z" style="fill:#f4995b"/>
+            <rect height="224" rx="8" style="fill:#4890df" width="48" x="120" y="216"/>
+            <path d="M144,432V224a8,8,0,0,1,8-8H128a8,8,0,0,0-8,8V432a8,8,0,0,0,8,8h24A8,8,0,0,1,144,432Z" style="fill:#547fd2"/>
+            <rect height="192" rx="8" style="fill:#4890df" width="48" x="264" y="248"/>
+            <path d="M288,432V256a8,8,0,0,1,8-8H272a8,8,0,0,0-8,8V432a8,8,0,0,0,8,8h24A8,8,0,0,1,288,432Z" style="fill:#547fd2"/>
+            <rect height="272" rx="8" style="fill:#4890df" width="48" x="408" y="168"/>
+            <path d="M432,432V176a8,8,0,0,1,8-8H416a8,8,0,0,0-8,8V432a8,8,0,0,0,8,8h24A8,8,0,0,1,432,432Z" style="fill:#547fd2"/>
+            <path d="M16,440a8,8,0,0,1-8-8V112H24V424l456-.214.008,16L16,440Z" style="fill:#eae9a9"/>
+            <rect height="16" style="fill:#eae9a9" width="64" x="392" y="20"/>
+            <rect height="16" style="fill:#eae9a9" width="64" x="392" y="68"/>
+            <rect height="16" style="fill:#eae9a9" width="64" x="392" y="116"/>
+            <circle cx="364" cy="28" r="12" style="fill:#9ec645"/>
+            <circle cx="364" cy="76" r="12" style="fill:#c1d776"/>
+            <circle cx="364" cy="124" r="12" style="fill:#d5e4a4"/>
+            <circle cx="192" cy="96" r="88" style="fill:#d5e4a4"/>
+            <path d="M106.623,117.344a88.026,88.026,0,0,0,106.721,64.033L192,96Z" style="fill:#c1d776"/>
+            <path d="M192,8a88.017,88.017,0,0,0-85.377,109.344L192,96Z" style="fill:#9ec645"/>
+        </g>
+    </g>
+</svg>

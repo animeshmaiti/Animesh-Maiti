@@ -1,6 +1,6 @@
-import { Testimonial } from './Testimonial';
 import { Clients } from './Clients';
 import { Services } from './Services';
+import { HighlightedProject } from './HighlightedProject';
 
 export const About = () => {
   return (
@@ -25,7 +25,7 @@ export const About = () => {
         </p>
       </section>
       <Services/>
-      <Testimonial />
+      <HighlightedProject />
       <Clients />
     </article>
   );
