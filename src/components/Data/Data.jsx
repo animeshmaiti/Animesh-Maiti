@@ -162,7 +162,7 @@ import chatApp from '@assets/chatApp.png';
 import aiChat from '@assets/AiChatBot.png';
 import expense from '@assets/expenseTrack.png';
 import newsApp from '@assets/newsApp.png';
-import notebook from '@assets/noteBook.png';
+import notebook from '@assets/notebook.png';
 
 export const ProjectListData = [
   {
