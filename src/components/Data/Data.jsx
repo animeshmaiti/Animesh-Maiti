@@ -222,46 +222,10 @@ export const blogPosts = [
   {
     link: '#',
     img: blog1,
-    category: 'Design',
-    date: 'Feb 23, 2022',
-    title: 'Design conferences in 2022',
+    category: 'Tech',
+    date: 'Coming Soon',
+    title: 'Ai Will Change The World',
     sortDescription:
-      'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
-  },
-  {
-    link: '#',
-    img: blog1,
-    category: 'Design',
-    date: 'Feb 23, 2022',
-    title: 'Design conferences in 2022',
-    sortDescription:
-      'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
-  },
-  {
-    link: '#',
-    img: blog1,
-    category: 'Design',
-    date: 'Feb 23, 2022',
-    title: 'Design conferences in 2022',
-    sortDescription:
-      'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
-  },
-  {
-    link: '#',
-    img: blog1,
-    category: 'Design',
-    date: 'Feb 23, 2022',
-    title: 'Design conferences in 2022',
-    sortDescription:
-      'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
-  },
-  {
-    link: '#',
-    img: blog1,
-    category: 'Design',
-    date: 'Feb 23, 2022',
-    title: 'Design conferences in 2022',
-    sortDescription:
-      'Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.',
+      'How AI is changing the world and how it will impact the future.',
   },
 ];
