@@ -10,22 +10,22 @@ export const ServicesData = [
   {
     img: webDev,
     title: 'Web Development',
-    desc: 'Mostly working with modern full stack web technologies like MERN stack. Now I\'m working lot with backend with python flask,...',
+    desc: "Mostly working with modern full stack web technologies like MERN stack. Now I'm working lot with backend with python flask,...",
   },
   {
     img: machineLearning,
     title: 'Machine Learning',
-    desc: 'I\'m working on a machine learning project to predict Dyslexia using EEG data, applying supervised learning techniques...',
+    desc: "I'm working on a machine learning project to predict Dyslexia using EEG data, applying supervised learning techniques...",
   },
   {
     img: dataAnalysis,
     title: 'Data Analysis',
-    desc: 'I\'m applying data science techniques to analyze and interpret complex datasets, focusing on projects in predictive....',
+    desc: "I'm applying data science techniques to analyze and interpret complex datasets, focusing on projects in predictive....",
   },
   {
     img: awsCloud,
     title: 'AWS Cloud',
-    desc: 'I\'m starting out with AWS Cloud, focusing on web hosting and architecting efficient solutions that...',
+    desc: "I'm starting out with AWS Cloud, focusing on web hosting and architecting efficient solutions that...",
   },
 ];
 
@@ -39,7 +39,7 @@ export const projectData = [
   {
     avatar: dyslexia,
     name: 'Dyslexia Prediction',
-    text: 'Project Objective: I\'m developing a machine learning model to predict Dyslexia through EEG data analysis. The model currently leverages supervised learning techniques to classify or predict instances of Dyslexia.\n\nData Processing & Visualization: For data manipulation and pre-processing, I use tools like pandas and numpy. Data cleaning and feature engineering help refine the dataset, and I visualize feature relationships and insights using matplotlib and seaborn.\n\nDimensionality Reduction: Given the high dimensionality of EEG data, I use Principal Component Analysis (PCA) from sklearn to reduce dimensions and streamline model training and performance.\n\nAlgorithms and Model Building: My current approach uses SVM from sklearn and a simple neural network from TensorFlow\'s Keras library for classification tasks. The models are trained on labeled EEG data to identify patterns and features correlated with Dyslexia.',
+    text: "Project Objective: I'm developing a machine learning model to predict Dyslexia through EEG data analysis. The model currently leverages supervised learning techniques to classify or predict instances of Dyslexia.\n\nData Processing & Visualization: For data manipulation and pre-processing, I use tools like pandas and numpy. Data cleaning and feature engineering help refine the dataset, and I visualize feature relationships and insights using matplotlib and seaborn.\n\nDimensionality Reduction: Given the high dimensionality of EEG data, I use Principal Component Analysis (PCA) from sklearn to reduce dimensions and streamline model training and performance.\n\nAlgorithms and Model Building: My current approach uses SVM from sklearn and a simple neural network from TensorFlow's Keras library for classification tasks. The models are trained on labeled EEG data to identify patterns and features correlated with Dyslexia.",
     link: 'https://github.com/animeshmaiti/dyslexia-detection-eeg',
   },
   {
@@ -52,7 +52,7 @@ export const projectData = [
     avatar: chatIcon,
     name: 'Chat Application',
     text: 'I created a full-stack chat application using the NERN stack—Node.js, Express, React, and MongoDB—with a focus on real-time messaging and secure communication. The frontend leverages React along with socket.io-client for live updates, zustand for state management, and react-router-dom for navigation. Notifications are integrated with react-hot-toast, and icons are provided by react-icons. On the backend, Express and Node.js power the server, using socket.io for real-time functionality, while bcryptjs and jsonwebtoken manage secure authentication. MongoDB, accessed through Mongoose, serves as the database, enabling efficient data handling for seamless user interactions.',
-    link:'https://github.com/animeshmaiti/Chat-App',
+    link: 'https://github.com/animeshmaiti/Chat-App',
   },
   {
     avatar: textIcon,
@@ -103,14 +103,12 @@ export const EducationData = [
   {
     title: 'Gyandeep Vidyapith, West Bengal, WBBSE',
     date: '2018 — 2019',
-    description:
-      'Completed my secondary education with 81% marks.',
+    description: 'Completed my secondary education with 81% marks.',
   },
   {
     title: 'Egra JL High School, West Bengal, WBCHSE',
     date: '2019 — 2021',
-    description:
-      'Completed my higher secondary education with 84% marks.',
+    description: 'Completed my higher secondary education with 84% marks.',
   },
   {
     title: 'Kalinga Institute of Industrial Technology, Bhubaneswar',
@@ -123,16 +121,27 @@ export const EducationData = [
 // Experience data
 export const ExperienceData = [
   {
-    title: 'Resume',
-    date: 'Present',
+    title: 'Dyslexia Detection Using EEG',
+    date: 'Sep 2023 - Present',
     description:
-      'I am a student fresher who looking for a job. For gain experience and knowledge.',
+      'Led a team of four in a research-driven project aimed at detecting dyslexia using EEG data. Responsible for developing the ML model, data processing pipeline, and coordinating research efforts.'
   },
   {
-    title: 'No Experience',
+    title: 'Project\'s key achievements',
+    date: 'Feb 2024',
+    description:'Selected for KIIT Annual Project Expo, KREATIVITY-2024 (Feb 10, 2024)'
+  },
+  {
+    title: 'Aspiring Professional',
     date: 'Present',
     description:
-      'I have no experience in any company. I am a student and I am learning new things every day.',
+      'I am a motivated student actively seeking opportunities to apply my knowledge and skills in a professional setting. Eager to gain hands-on experience and contribute to a dynamic team.',
+  },
+  {
+    title: 'Continuous Learner',
+    date: 'Present',
+    description:
+      'Although I do not have prior industry experience, I am dedicated to building a strong foundation through ongoing learning and practical projects. My academic journey and personal initiatives reflect my commitment to growth and excellence.',
   },
 ];
 
