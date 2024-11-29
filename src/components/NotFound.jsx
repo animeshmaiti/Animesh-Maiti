@@ -8,8 +8,7 @@ export const NotFound = () => {
           Error <span className='errorcode'>404</span>
         </h1>
         <p className='output'>
-          The page you are looking for is not found, had its name
-          changed or is temporarily unavailable.
+          The page you are looking for cannot be found, has been renamed, or is temporarily unavailable.
         </p>
         <p className='output'>
           Please try to go back or{' '}
