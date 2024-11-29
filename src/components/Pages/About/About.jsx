@@ -1,4 +1,4 @@
-import { Clients } from './Clients';
+import { Tools } from './Tools';
 import { Services } from './Services';
 import { HighlightedProject } from './HighlightedProject';
 
@@ -31,7 +31,7 @@ export const About = () => {
       </section>
       <Services />
       <HighlightedProject />
-      <Clients />
+      <Tools />
     </article>
   );
 };
