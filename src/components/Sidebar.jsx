@@ -2,10 +2,9 @@ import avatar from '../assets/my-avatar.png';
 import { IonIcon } from '@ionic/react';
 import {
   mailOutline,
-  phonePortraitOutline,
   calendarOutline,
   locationOutline,
-  logoFacebook,
+  logoLinkedin,
   logoTwitter,
   logoGithub,
   chevronDown,
@@ -57,22 +56,8 @@ export const Sidebar = () => {
             <div className='contact-info'>
               <p className='contact-title'>Email</p>
 
-              <a href='mailto:a.maiti770@gmail.com' className='contact-link'>
-                a.maiti770@gmail.com
-              </a>
-            </div>
-          </li>
-
-          <li className='contact-item'>
-            <div className='icon-box'>
-              <IonIcon icon={phonePortraitOutline}></IonIcon>
-            </div>
-
-            <div className='contact-info'>
-              <p className='contact-title'>Phone</p>
-
-              <a href='tel:+918597668032' className='contact-link'>
-                +91 8597668032
+              <a href='mailto:maitianimesh08@gmail.com' className='contact-link'>
+                maitianimesh08@gmail.com
               </a>
             </div>
           </li>
@@ -104,8 +89,8 @@ export const Sidebar = () => {
 
         <ul className='social-list'>
           <li className='social-item'>
-            <a href='https://www.facebook.com/animesh.maiti.566' className='social-link' target='_blank'>
-              <IonIcon icon={logoFacebook}></IonIcon>
+            <a href='https://www.linkedin.com/in/animeshmaiti/' className='social-link' target='_blank'>
+              <IonIcon icon={logoLinkedin}></IonIcon>
             </a>
           </li>
 
